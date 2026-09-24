@@ -1,0 +1,50 @@
+.personal-outer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 10px;
+}
+legend {
+  margin: left 1px;
+}
+h2 {
+  text-align: center;
+}
+.Qualification-outer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  row-gap: 10px;
+}
+.Language-outer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap10px;
+  /* height: 400px; */
+}
+.Identification-outer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  column-gap: 40px;
+  row-gap: 2px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  /* text-align: center; */
+}
+
+.formGroup label {
+  display: inline-block;
+  column-gap: 1px;
+}
+
+.formGroup input {
+  display: inline-block;
+}
+#state {
+  width: 200px;
+}
+.innner-outer {
+  color: #000;
+}

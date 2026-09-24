@@ -1,0 +1,33 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.container
+{
+    width: 100px;
+    height: 100px;
+   border: 2px cadetblue;
+    /* background-color: #965f5f; */
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: #982828; */
+}
+.main
+{
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color:  #923232;
+    border-radius: 15px;
+     
+}
+
+button
+{
+    
+}

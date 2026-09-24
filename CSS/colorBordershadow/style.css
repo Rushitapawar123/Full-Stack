@@ -1,0 +1,85 @@
+body
+{
+    background-color: #f1b3b3;
+}
+
+.main{
+    color: rgb(116, 70, 15);
+   background-color: #aca8a8;
+
+}
+
+#card {
+    background-color: #848c54;
+    width: 200px;
+    height: 200px;
+    h3{
+        color: #060606;
+    }
+}
+ #card p{
+    color: aqua;
+    background-color: #fff;
+    border:10px double rgb(96, 38, 49) ;
+    height: 330px;
+    overflow: auto;
+}
+
+#clickbutton
+{
+    background-color: #75e494;
+    border: 1px solid #0a8218;
+    border-color: #0a8218;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px gray;
+
+
+}
+#clickbutton:hover{
+    background-color: #f52828;
+    color: #240a82;
+}
+
+#clickbutton:active{
+    background-color: #162a1f;
+    color: #fff;
+}
+
+section
+{
+    height: 30px;
+    width: 600px;
+    background-color: #967575;
+    border-color: #133517;
+    border-width: 2px;
+    border-style: dashed;
+    overflow: auto;
+   
+    
+}
+
+#button{
+    
+   
+         border-radius: 7px;
+         background-color: #1ec85f;
+         border-style: solid;
+         box-shadow: inset;
+         height: 100px;
+         width: 200px; 
+         box-shadow: 20px  10px 10px#0a8218; 
+}
+
+#button:hover
+{
+ background-color: #cd4a8b;
+ color: #967575;
+}
+
+#button:active
+{
+  background-color: #fff;  
+  color: #162a1f;
+}
