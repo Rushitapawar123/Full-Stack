@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Rushita Pawar</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff5f2;
+      color: #3e2a32;
+    }
+
+    nav {
+      padding: 18px;
+      text-align: center;
+      background: #d05f90;
+    }
+
+    nav a {
+      margin: 0 12px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      width: min(90%, 850px);
+      margin: 35px auto;
+      padding: 35px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    }
+
+    .intro {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #f6b6ca;
+    }
+
+    h1 {
+      color: #c04677;
+    }
+
+    h2 {
+      color: #a94370;
+      margin-top: 35px;
+    }
+
+    .card {
+      margin-top: 15px;
+      padding: 18px;
+      border-left: 5px solid #d05f90;
+      border-radius: 10px;
+      background: #fff0f5;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 22px;
+      border-radius: 25px;
+      color: white;
+      background: #d05f90;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .contact-btn:hover {
+      background: #a94370;
+    }
+  </style>
 </head>
+
 <body>
-    <p>task2 basic</p>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="../Projectindex.html">Home</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <!-- Apni image images/profile.jpg folder mein rakhein -->
+      <img class="profile-photo" src="images/profile.jpg" alt="Rushita Pawar" />
+
+      <div>
+        <h1>About Me</h1>
+        <p>
+          Hello! My name is <b>Rushita Pawar</b>. I am a passionate student
+          learning web development. I enjoy creating simple, creative, and
+          functional websites using HTML and CSS.
+        </p>
+
+        <a class="contact-btn" href="contact.html">Connect With Me</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Education</h2>
+
+      <div class="card">
+        <h3>School Education</h3>
+        <ul>
+          <li>10th — MP Board</li>
+          <li>12th — MP Board</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>College Education</h3>
+        <ul>
+          <li>B.Tech — MITS Bhopal</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hobbies & Interests</h2>
+      <ul>
+        <li>Coding and Web Design</li>
+        <li>Reading Tech Blogs</li>
+        <li>Gaming</li>
+        <li>Learning New Technologies</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My Goal</h2>
+      <p>
+        My goal is to become a skilled web developer and build useful,
+        responsive, and user-friendly websites.
+      </p>
+    </section>
+  </main>
 </body>
 </html>

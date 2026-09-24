@@ -1,34 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio - Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-   <main>
-    <h1>WellCome to my Portfolio WebSite </h1>
-   </main>
+  <style>
+    * {
+      background: peachpuff;
+      font-family: sans-serif;
+      font-size: 1em;
+    }
 
-   <p>
-    This is The Page.Click any link in the navigation menu Below to explore other pages!
-    <hr>
-   </p>
-    <img src="./rp.jpg" width="100" height="100">
-   <ul>
-    
-    <li><a href="about.html"> About Me</a></li>
-    <br>
-    <li><a href="skills.html"> My Skills</a></li>
-    <br>
-    <li><a href="projects.html"> My Projects</a></li>
-    <br>
-    <li><a href="contact.html"> My Contact</a></li>
-    <br>
-    <li><a href="../Projectindex.html"> Home</a></li>
-   </ul>
-    
-</body>
+    .imge {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5e3e0 0%, #e8c5be 100%);
+      min-height: 100vh;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    nav {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(10px);
+      padding: 15px 0;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      list-style: none;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4a2c20;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    nav a:hover {
+      background: #2c1810;
+      color: #ffffff;
+    }
+
+    .highlight-name {
+      color: #b20808;
+      font-size: large;
+      font-style: italic;
+      transition-property: all;
+      background: #f0e8e8;
+    }
+    .main {
+      background: rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: 24px;
+      padding: 40px;
+      margin: 40px 20px;
+      max-width: 800px;
+      width: 90%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+    .description {
+      font-style: italic;
+      font-optical-sizing: auto;
+      background: #fae8e8;
+      color: rgb(109, 48, 48);
+      font-weight: 100;
+    }
+    .intro-title {
+      background-color: #fae8e8;
+      font-size: larger;
+      font-size: larger;
+    }
+    .subtitle{
+        color: #4a2c20;
+        background-color: #fae8e8;
+    }
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="about.html"> About Me</a></li>
+
+        <li><a href="skills.html"> My Skills</a></li>
+
+        <li><a href="projects.html"> My Projects</a></li>
+
+        <li><a href="contact.html"> My Contact</a></li>
+
+        <li><a href="../Projectindex.html"> Home</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <main class="main">
+      <img src="./rp.jpg" alt="Profile Picture" class="imge" />
+
+      <h1 class="intro-title">
+        Welcome, I'm <span class="highlight-name">Rushita Pawar</span>
+      </h1>
+      <p class="subtitle">Welcome to my personal Portfolio Website</p>
+
+      <p class="description">
+        Explore my skills, projects, and educational background. Use the
+        navigation menu above to discover more about my work!
+      </p>
+      <hr />
+    </main>
+  </body>
 </html>

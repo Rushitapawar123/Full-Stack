@@ -1,11 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>GST Bill</title>
+<style>
+  * {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background: #f2f2f2;
+    padding: 20px;
+  }
+  .invoice {
+    max-width: 750px;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+  .header {
+    background: #4b3fbb;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .top-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .top-info div {
+    line-height: 1.9;
+    font-size: 14px;
+  }
+  .logo-box {
+    text-align: right;
+  }
+  .logo-box .brand {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  .brand span {
+    color: #4b3fbb;
+  }
+
+  .section-title-row {
+    display: flex;
+  }
+  .section-title {
+    flex: 1;
+    background: #4b3fbb;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: bold;
+  }
+
+  .bill-ship-row {
+    display: flex;
+  }
+  .bill-ship-row .col {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  table.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+  }
+  table.items th {
+    background: #4b3fbb;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #4b3fbb;
+  }
+  table.items td {
+    border: 1px solid #ccc;
+    height: 30px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  table.items tr.empty-row td {
+    height: 25px;
+  }
+
+  .bottom-section {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  .bottom-left {
+    flex: 1;
+    border-right: 1px solid #ccc;
+  }
+  .bottom-left .amount-words {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+  .bottom-left .bank-details {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .bottom-left .bank-details strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .bottom-right {
+    flex: 1;
+  }
+  .bottom-right .row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  .bottom-right .row div {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .bottom-right .row div:first-child {
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+  }
+  .bottom-right .row:last-child {
+    border-bottom: none;
+  }
+</style>
 </head>
 <body>
-    <p>task3 basic</p>
+
+<div class="invoice">
+
+  <div class="header">GST Bill</div>
+
+  <div class="top-info">
+    <table >
+      <tr>
+        <td>Business name</td>
+        <td>GSTIn No:</td>
+      </tr>
+      <tr>
+        <td>Adress</td>
+        <td>Invoice no:</td>
+      </tr>
+      <tr>
+        <td>phone number</td>
+        <td>State</td>
+      </tr>
+      </table>
+    <!-- <div>
+      <div><strong>GSTIN No :</strong></div>
+      <div><strong>Invoice no :</strong></div>
+      <div><strong>State :</strong></div>
+    </div> -->
+    <div class="logo-box">
+      <div class="brand">my<span>BillBook</span></div>
+    </div>
+  </div>
+
+  <div class="section-title-row">
+    <div class="section-title">Bill To:</div>
+    <div class="section-title">Shipping To:</div>
+  </div>
+
+  <div class="bill-ship-row">
+    <div class="col">
+      <div><strong>Name :</strong></div>
+      <div><strong>Address :</strong></div>
+      <div><strong>Phone No :</strong></div>
+      <div><strong>GSTIN :</strong></div>
+      <div><strong>State :</strong></div>
+    </div>
+    <div class="col">
+      <div><strong>Name :</strong></div>
+      <div><strong>Address :</strong></div>
+      <div><strong>Phone No :</strong></div>
+      <div><strong>GSTIN :</strong></div>
+      <div><strong>State :</strong></div>
+    </div>
+  </div>
+
+  <table class="items">
+    <tr>
+      <th style="width:40px;">S.No</th>
+      <th>Goods Description</th>
+      <th style="width:60px;">HSN</th>
+      <th style="width:70px;">QTY</th>
+      <th style="width:70px;">MRP</th>
+      <th>Amount</th>
+    </tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr class="empty-row"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <div class="bottom-section">
+    <div class="bottom-left">
+      <div class="amount-words">Amount in words</div>
+      <div class="bank-details">
+        <strong>Bank Details</strong>
+        Account Name :<br>
+        Account Number :<br>
+        IFSC Code :
+      </div>
+    </div>
+    <div class="bottom-right">
+      <div class="row"><div>Discount</div><div></div></div>
+      <div class="row"><div>SGST</div><div></div></div>
+      <div class="row"><div>CGST</div><div></div></div>
+      <div class="row"><div>Balance:</div><div><strong>Total:</strong></div></div>
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>

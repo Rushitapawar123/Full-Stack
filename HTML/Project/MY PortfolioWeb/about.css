@@ -1,0 +1,178 @@
+
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif, system-ui;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #968e8e;
+  line-height: 1.6;
+}
+
+/* Main Container */
+.div {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #ddd1d1;
+  padding: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.navbar .item a {
+  text-decoration: none;
+}
+
+.navbar  {
+  background-color: #be8226;
+  color: #ffffff;
+  border: none;
+  padding: 15px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  /* cursor: pointer; */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar :hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+  border-radius: 7px;
+  padding: 9px 20px;
+}
+
+/* About Section */
+.para {
+  background-color: #d1bcbc;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.para h1 {
+  color: #4a4c5d;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4f46e5;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   /* transition: background-color 0.3s ease, transform 0.2s ease; */
+
+}
+
+.para h2 {
+  color: #151618;
+  margin-bottom: 10px;
+}
+
+.para p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #161b21;
+  font-size: 1.05rem;
+}
+
+/* Location / Info Section */
+.Location {
+  background-color: #d3d0c4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.Location ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.Location li {
+  font-size: 0.95rem;
+  color: #322617;
+}
+
+
+ .meducation {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  
+}
+
+.education {
+  flex: 1;
+  background-color: #e2d8d8;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  
+}
+
+.education h2 {
+  color: #1f2937;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #cab37c;
+  padding-bottom: 8px;
+}
+
+.education p {
+  margin-top: 10px;
+  color: #4b2e12;
+}
+
+.education div {
+  margin-top: 5px;
+  color: #4b5563;
+}
+
+/* CTA Links / Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #352815;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c09f93;
+  color: #ffffff;
+}
+
+
+
+  .Location ul {
+    flex-direction: column;
+    align-items: center;
+  }

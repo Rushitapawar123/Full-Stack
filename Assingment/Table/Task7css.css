@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.Header {
+  background-color: #4b3fbb;
+  size: 200px;
+  text-align: center;
+}
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.bill-ship-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-title-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 1px solid #d7d2f4;
+  background-color: #4b3fbb;
+}
+
+.empty-row td {
+  height: 25px;
+}
+table.table {
+  border: 1px solid #ccc;
+  height: 30px;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+.bottom-section {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.tuch {
+  width: 100%;
+}
+
+.tech {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.tech th,
+.tech td {
+  padding: 8px;
+}

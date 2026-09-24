@@ -1,0 +1,48 @@
+
+
+
+/* .login-page
+{
+  width: 250px;
+  height: 250px;
+  border: 1px solid #000; */
+  /* display: flex; */
+  /* justify-content: center; */
+
+  /* button
+{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+} */
+
+/* .container {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto background-clip border-box;;  
+  flex-wrap: nowrap;
+  padding: 20px 12px;
+  margin: 10px;
+  gap: 20px;
+ 
+} */
+.container
+{
+    display: inline-block;
+
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* border: 5px solid rgb(12, 19, 4); */
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color:  #b26f6f;
+    border-radius: 15px;
+     flex-wrap: nowrap;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

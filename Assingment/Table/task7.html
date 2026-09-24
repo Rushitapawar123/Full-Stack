@@ -3,20 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Task7</title>
+    <link rel="stylesheet" href="Task7css.css" />
+    
+    
   </head>
   <body>
-    <table cellpadding="2">
-      <tr>
-        <th>GST Bill</th>
-      </tr>
+    <div>
+      <h1 class="Header">GST Bill</h1>
+      <div class="top-info">
+        <div>
+          <div>Business Name :</div>
+          <div>Address</div>
+          <div>Phone Number</div>
+        </div>
 
-      <tr>
-        <td colspan="4">Business Name:</td>
-        <td>GST NO:</td>
-      </tr>
+        <div>
+          <div>GSTIN NO:</div>
+          <div>Invoice:</div>
+          <div>State:</div>
+        </div>
 
-      <tr></tr>
-    </table>
+        <div class="logo-box">
+          <div class="brand">my<span>BillBook</span></div>
+        </div>
+      </div>
+      <div class="section-title-row">
+        <div class="section-title">bill to :</div>
+        <div class="section-title">Shipping To:</div>
+      </div>
+      <div class="bill-ship-row">
+        <div class="col">
+          <div>Name:</div>
+          <div>Address:</div>
+          <div>Phone no:</div>
+          <div>GSTIN:</div>
+          <div>State</div>
+        </div>
+        <div class="col">
+          <div>Name:</div>
+          <div>Address:</div>
+          <div>Phone No:</div>
+          <div>GSTIN:</div>
+          <div>State:</div>
+        </div>
+      </div>
+
+      <table class="table" border="1">
+        <tr>
+          <th>S.No</th>
+          <th>Good Description</th>
+          <th>HSN</th>
+          <th>QTY</th>
+          <th>MRP</th>
+          <th>Amount</th>
+        </tr>
+        <!-- <div class="empty-row td"> -->
+        <tr class="empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="empty-row">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- </div> -->
+      </table>
+      <div class="bottom-section">
+        <div class="bottom-left"></div>
+      </div>
+      <div class="tuch">
+      <table border="1"  class="tech">
+        <tr>
+          <th rowspan="2">Amount in words</th>
+          <td >Discount</td>
+          
+        </tr>
+        <tr>
+          <td>sgst</td>
+         
+        </tr>
+        <tr>
+          <th>Bank Details:</th>
+         
+          <td>cgst</td>
+        </tr>
+        <tr>
+          <td>Acount name</td>
+          <!-- <td>sgst</td> -->
+          <td rowspan="2">Balance:</td>
+        </tr>
+        <tr><td>Account number</td>  <td></td></tr>
+
+        <tr>
+          <td>IFSC:</td>  <td>Total</td>
+        </tr>
+      </table>
+      </div>
+    </div>
   </body>
 </html>
