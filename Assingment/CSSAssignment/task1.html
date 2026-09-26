@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css</title>
-   
+
     <link rel="stylesheet" href="Task1.css" />
+
+    
   </head>
   <body>
-    <div class="container">
-      <!-- <div class="main"> -->
-        <h2>Login</h2>
-
+    <div class="outer">
+      <div class="container">
+       
+        <h1>Login</h1>
+     <section>
         <div>
           <input
             type="email"
@@ -20,8 +23,7 @@
             placeholder="Enter Your email"
           />
         </div>
-      </div>
-     
+
         <div>
           <input
             type="password"
@@ -30,15 +32,66 @@
             placeholder="Confirm a Password"
           />
         </div>
-     
-      <div >
-        <input type="checkbox" name="checkbox" id="checkbox" />
-        <span>Remember me</span>
+      </section>
+    <div>
+        <div class="c">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <span >Remember me</span>  <a href="">forgate password</a> </div>
+        <div >
+          <button>Login Now</button>
+        </div>
+        <p>Don't have an account? <a href="">signup now</a></p>
       </div>
-      <div c>
-        <button>Login Now</button>
+
+      <div class="container2">
+        <h1>registartion</h1>
+
+        <section>
+        <div >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter your name"
+           
+          />
+        </div>
+        <div >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter your email"
+          />
+        </div>
+
+        <div >
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="create a password"
+          />
+        </div >
+        <div >
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="  Confirm a password"
+          />
+        </div>
+ </section>
+        <div >
+          <input type="checkbox" name="name" id="name" />
+          <span>i accept all terms & conditions</span>
+        </div>
+        
+
+        <div ><button>Register Now</button></div>
+
+        <p>already have an account? <a href="">login now</a></p>
       </div>
-      <p>Don't hav an account? signup now</p>
     </div>
   </body>
 </html>
