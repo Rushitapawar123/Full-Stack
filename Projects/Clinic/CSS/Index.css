@@ -79,30 +79,129 @@
   text-decoration: underline;
 }
 
+.header2
+{
+  background-color: #fff;
+  position: sticky;
+  top:40px;
+  width: 100%;
+}
+
 .about {
   background-color: #eaecef;
   display: flex;
-  top: 10px;
+  /* top: 15px; */
   align-items: center;
-  padding: 5px 15px;
+  padding: 9px 20px;
   justify-content: space-between;
   height: 55px;
   font-size: 14px;
-
-}
-
-.navmenu
-{
-default-font: "Roboto", system-ui, -apple-system, "Segoe UI",
-  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-
-  --swiper-navigation-size:44px
-
-}
-.navmenu li{
   font-family:  "Roboto", system-ui, -apple-system, "Segoe UI",
   "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  margin-right: 120px;
 
-  color: #eeefea41;
+}
+
+.about h1
+{
+  font-size: 28px;
+  font-weight: 700;
+
+}
+
+.navmenu ul{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navmenu ul li a{
+
+  display: flex;
+  align-items: center;
+  /* gap: 2px; */
+  color: rgb(17, 29, 29);
+  font-size: large;
+  font-weight: 500;
+  padding: 3px 0;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navmenu ul li a:hover
+{
+ color: #304ee6;
+ text-decoration:underline;
+
+}
+
+.navmenu .dropdown
+{
+  position: relative;
+}
+
+.navmenu .dropdown ul
+{
+display: none;
+position: absolute;
+top: 100%;
+background-color: #fff;
+border-radius: 6px;
+min-width: 200px;
+padding: 10px 0;
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+.navmenu .dropdown:hover ul{
+  display: flex;
+}
+
+.navmenu .dropdown ul li{
+  width: 100%;
+}
+.navmenu .dropdown ul li a{
+  display: block;
+  padding: 3px 20px;
+  counter-reset: #333;
+  font-size: 14px;
+  text-decoration: none;
+  /* white-space: ; */
+}
+
+
+.navmenu .dropdown ul li a:hover {
+  background-color: #f5f5f5;
+  color: #304ee6;
+}
+
+
+.navmenu .dropdown .dropdown ul {
+  top: 0;
+  right: 100%;
+  text-decoration: none;
+}
+
+
+.mobile-nav-toggle {
+  display: none;
+  font-size: 26px;
+  color: #304ee6;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1200px) {
+  .navmenu > ul {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
 }
 
