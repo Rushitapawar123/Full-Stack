@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  /* width: 100%; */
+  box-sizing: border-box;
 }
 
 .header {
@@ -8,10 +10,11 @@
     height: 40px;
     display: flex;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     width: 100%;
   }
+  
 
   .manu {
     display: flex;
@@ -82,8 +85,8 @@
 .header2
 {
   background-color: #fff;
-  position: sticky;
-  top:40px;
+  position:sticky;
+  top:0px;
   width: 100%;
 }
 
@@ -99,6 +102,11 @@
   font-family:  "Roboto", system-ui, -apple-system, "Segoe UI",
   "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   margin-right: 120px;
+
+  h1
+  {
+    margin-left: 50px;
+  }
 
 }
 
@@ -205,3 +213,166 @@ align-items: flex-start;
   }
 }
 
+.container
+{
+  display: flex;
+  justify-content: center;
+  background-color: #a46464;
+
+}
+
+
+
+
+
+.hero-section
+{
+  background: linear-gradient(135deg, var(--surface-color) 0%,
+ color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
+}
+
+.rating-section
+{
+  display: inline-flex ;
+ gap: 25px;
+align-items: center;
+  width:500px;
+  margin-left: 70px;
+
+  color: #175cdd;
+  text-align: center;
+  
+}
+.sield
+  {
+   
+    background-color: rgba(0, 123, 255, 0.2);
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    align-content: center;
+
+  }
+
+  .time
+  {
+   
+    background-color: rgba(0, 123, 255, 0.2);
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    align-content: center;
+
+  }
+
+  .star
+  {
+   
+    background-color: rgba(0, 123, 255, 0.2);
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    align-content: center;
+  }
+
+
+  .hero1 h1
+  {
+    font-size: 57px;
+   
+  }
+
+  .highlight
+  {
+    color: #304ee6;
+    text-decoration: underline;
+  }
+  .para
+  {
+   font-family: "Roboto", system-ui, -apple-system, "Segoe UI",
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  margin-right: 120px; 
+
+  color: gray;
+  font-size: large;
+  margin-top: 10px;
+  }
+
+  .medical
+  {
+    display: flex;
+    gap: 25px;
+  }
+
+  .patient h2
+  {
+  color: #304ee6;
+  font-size: xx-large;
+  }
+  .patient p
+  {
+    color: gray;
+    font-weight: 200;
+  }
+
+  .btn{
+    display: flex;
+    gap: 40px;
+   
+
+  }
+
+  .appointment
+  {
+     border: 1px solid black;
+     width: 200px;
+     height: 45px;
+     border-radius: 100px;
+    
+     text-align: center;
+     align-content: center;
+     background-color: #304ee6;
+    
+     font-size: larger;
+  }
+.appointment a
+{
+  color: #eaecef;
+ text-decoration: none;
+}
+  
+.watchstory
+{
+  border: 1px solid #304ee6;
+  width: 170px;
+  border-radius: 45px;
+  text-align: center;
+  align-content: center;
+
+}
+.watchstory a{
+  columns: #304ee6;
+  text-decoration: none;
+   font-size: larger;
+   display: inline-block;
+
+}
+.watchstory a:hover
+{
+  background-color: #304ee6;
+  color: white;
+}
+
+#image
+{
+  width: 500px;
+  height: 500px;
+  align-items: center;
+
+}
+.hero2
+{
+  display: flex;
+  align-items: center;
+  
+}
