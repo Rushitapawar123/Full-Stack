@@ -401,3 +401,197 @@
   border-radius: 12px;
   display: block;
 }
+
+.Next-Available {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+
+  width: 200px;
+  height: 130px;
+  position: absolute;
+  top: 200px;
+  right: 250px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.calendar-icon {
+  background-color:rgba(0, 123, 255, 0.2);
+  border-radius: 50%;
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.Next-Available
+ h6{
+  font-size: 15px;
+ }
+
+ .Next-Available small{
+  font-size: small;
+  color: gray;
+ }
+
+.rating-card {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 90px;
+  position: absolute;
+  bottom: 90px;
+  right: 560px;
+}
+
+
+.rating-stars{
+  color: gold;
+}
+
+.star-contact small
+{
+  color: gray;
+}
+
+
+.star-contact h6{
+  font-size: larger;
+}
+
+
+
+.bulbule
+{
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid black;
+   border-radius: 100%;
+   background-color: rgba(0, 123, 255, 0.2);
+
+}
+
+
+.first-para
+{
+  color: rgba(128, 128, 128, 0.667);
+  font-size: larger;
+}
+.heding-para
+{
+  
+    font-size: 3.3rem;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+} 
+
+
+.second-para
+{
+color: rgba(108, 107, 107, 0.985);
+font-size: large;
+}
+
+
+.spacilty
+{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+
+}
+
+.number{
+  font-size: 45px;
+  color: #175cdd;
+
+}
+
+.Specialists
+{
+  color: gray;
+}
+
+.learn-more-about-us
+{
+  width: 200px;
+  height: 40px;
+  background-color: #175cdd;
+
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ 
+}
+
+  .learn-more-about-us a
+  {  color: white;
+    text-decoration: none;
+    font-size: large;
+
+
+  }
+
+   .learn-more-about-us :hover
+   {
+   background-color: #0a50d1;
+
+   }
+
+   .second-hero-section
+  {
+  
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+ 
+  }
+
+
+#image2 {
+  width: 600px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+ 
+}
+.Compassionate-Care
+{
+   flex: 1;
+  width: 300px;
+}
+  
+.image2
+{
+   flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+  border-radius: 10px;
+}
+
+
