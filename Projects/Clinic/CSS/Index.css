@@ -3,6 +3,7 @@
   margin: 0;
   /* width: 100%; */
   box-sizing: border-box;
+  /* color: transparent; */
 }
 
 .header {
@@ -79,6 +80,7 @@
   position: sticky;
   top: 0px;
   width: 100%;
+  z-index: 1000;
 }
 
 .about {
@@ -419,8 +421,8 @@
 }
 
 .calendar-icon {
-  background-color:rgba(0, 123, 255, 0.2);
-  border-radius: 50%;
+  background-color:rgba(0, 123, 255, 0.308);
+  border-radius: 15px;
   margin-left: 15px;
   width: 50px;
   height: 50px;
@@ -472,22 +474,56 @@
 
 
 
-.bulbule
+.bulbule1
 {
-  width: 50px;
-  height: 50px;
-
-  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid black; */
    border-radius: 100%;
    background-color: rgba(0, 123, 255, 0.2);
+   position: absolute;
+   top: 250px;
+   right: 650px;
+
+
+}
+
+.bulbule2
+{
+  width: 120px;
+  height: 120px;
+  /* border: 1px solid black; */
+   border-radius: 100%;
+   background-color: rgba(0, 123, 255, 0.2);
+   position: absolute;
+   top: 650px;
+   right: 600px;
+
+
+}
+
+.bulbule3
+{
+  width: 100px;
+  height: 100px;
+  /* border: 1px solid black; */
+   border-radius: 100%;
+   background-color: rgba(0, 123, 255, 0.2);
+   position: absolute;
+   top: 680px;
+   right: 200px;
+
 
 }
 
 
+/* end first section */
+/* start second section */
 .first-para
 {
   color: rgba(128, 128, 128, 0.667);
   font-size: larger;
+  word-spacing: 1px;
 }
 .heding-para
 {
@@ -495,7 +531,7 @@
     font-size: 3.3rem;
     font-weight: 300;
     line-height: 1.3;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
 
     color: var(--heading-color);
     font-family: var(--heading-font);
@@ -506,6 +542,7 @@
 {
 color: rgba(108, 107, 107, 0.985);
 font-size: large;
+word-spacing: 1px;
 }
 
 
@@ -542,6 +579,11 @@ font-size: large;
  
 }
 
+.learn-more-about-us
+{
+   transform: translatey(4px);
+}
+
   .learn-more-about-us a
   {  color: white;
     text-decoration: none;
@@ -550,9 +592,10 @@ font-size: large;
 
   }
 
-   .learn-more-about-us :hover
+   .learn-more-about-us:hover
    {
    background-color: #0a50d1;
+   transform: scale(1.1);
 
    }
 
@@ -576,12 +619,19 @@ font-size: large;
   height: 400px;
   align-items: center;
   border-radius: 10px;
+  /* box-shadow:  50px 50px rgb(242, 242, 237); */
  
+}
+
+#image2:hover
+{
+ transform: scale(1.1);
 }
 .Compassionate-Care
 {
    flex: 1;
   width: 300px;
+  margin-bottom: 400px;
 }
   
 .image2
@@ -592,6 +642,528 @@ font-size: large;
   justify-content: center;
   /* margin-top: 30px; */
   border-radius: 10px;
+  
+
 }
 
 
+.floating-card
+{
+  background-color: #391313;
+ 
+  width: 40px;
+  height: 800px;
+ 
+
+}
+
+.card-content
+{
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 1320px;
+  right: 470px;
+  background-color: white;
+   /* border: 1px solid black; */
+   width: 320px;
+   height: 85px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   border-radius: 10px;
+   box-shadow:  2px 2px 2px 2px rgb(228, 227, 227);
+}
+
+
+.experience-year
+{
+/* border: 1px solid black; */
+position: absolute;
+top: 1010px;
+right: 150px;
+width: 150px;
+height: 90px;
+border-radius: 10px;
+background-color: #175cdd;
+color: white;
+display: grid;
+grid-template-rows: auto auto;
+text-align: center;
+justify-content: center;
+align-items: center;
+/* box-shadow: ; */
+
+
+}
+
+.years
+{
+  font-size: 30px;
+}
+.text
+{
+  color: hwb(0 88% 12%);
+  font-size: small;
+}
+
+.heart-icon
+{
+  color: #175cdd;
+  font-size: 30px;
+  background-color: rgba(142, 180, 234, 0.248);
+  border-radius: 100%;
+  width: 50px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+/* end secend sectin */
+
+/* start third section */
+
+.FeaturedDepartments{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+.parafretur
+{
+  display: flex;
+  justify-content: center;
+  color: #333;
+  font-size: larger;
+}
+
+.specialized-care
+{
+color: #0a50d1;
+width: 160px;
+height: 40px;
+border-radius: 15px;
+background-color: rgba(142, 180, 234, 0.248);
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+margin-top: 10px;
+
+}
+
+.Featured-Departments
+{
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  /* box-shadow: 2px 2px gray; */
+
+}
+
+.firstrow:hover
+{
+ transform: scale(1.1);
+}
+
+.firstrow h3
+{
+  font-size: 28px;
+}
+.firstrow p{
+  color: gray;
+}
+
+.firstrow a{
+  text-decoration: none;
+  color: #304ee6;
+}
+.specialty-features i
+{
+  /* display: grid; */
+  color: #175cdd;
+  font-weight: 500;
+
+}
+
+.specialty-features
+{
+display: grid;
+color: #4c4a4a;
+}
+
+.image3
+{
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+  border-radius: 10px;
+}
+
+#image3
+{
+ width: 570px;
+  height: 240px;
+  align-items: center;
+  border-radius: 10px;
+}
+#image3:hover
+{
+ transform: scale(1.1);
+}
+
+.Surgeryinfo
+{
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  /* flex-wrap: wrap; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  
+  /* border-radius: 30px; */
+ 
+}
+
+.icon-heart
+{
+  color: #175cdd;
+  position:absolute;
+  top: 2350px;;
+  left: 200;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.cpu{
+
+position: absolute;
+top: 2350px;
+right: 200px;
+color: #175cdd;
+  /* position:absolute; */
+  
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+}
+
+.plush-shield
+{
+  height: 60px;
+  width: 60px;
+  color: white;
+  font-size: 35px;
+  margin-left: 150px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  background-color: #304ee6;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.cardfirst h3
+{
+font-size: 30px;
+margin-bottom: 10px;
+margin-top: 25px;
+
+}
+
+.cardfirst p
+{
+  color: gray;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.aro
+{
+  color: gray;
+   margin-top: 20px;
+}
+
+.aro i{
+ 
+  color: #447eeb;
+}
+
+.cardfirst a
+{
+  text-decoration: none;
+  color: #104ec0;
+  margin-top: 35px;
+  margin-bottom: 47px;
+}
+
+.cardfirst
+{
+  /* border: 1px solid black; */
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family:
+    "Roboto",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif;
+  
+    width: 350px;
+    background-color: rgba(247, 246, 246, 0.945);
+    /* box-shadow: 1px 1px 1px gray; */
+    border-radius: 20px;
+}
+
+.cardfirst:active
+{
+  transform: translatey(4px);
+}
+.cardfirst:hover
+{
+ border: #104ec0 1px solid;
+}
+
+.Treatment
+{
+  display: flex;
+  gap: 55px;
+  justify-content: center;
+  
+}
+
+.EmergencyServices h2
+{
+font-size: 30px;
+color: white;
+
+}
+
+.Emergency-Services
+
+{
+  background-color: blue;
+  display: flex;
+justify-content: center;
+align-items: center;
+  height: 150px;
+
+
+}
+
+.EmergencyServices p
+{
+  color: rgb(166, 165, 165);
+}
+
+.emergencybutton
+
+{
+  background-color: #fff;
+  
+  width: 270px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.emergencybutton a
+{
+  text-decoration: none;
+  color: #0a3fa1;
+}
+
+.emergencybutton i
+{
+  margin-right: 8px;
+}
+
+@media screen and(max-width: 768px)  {
+  .Surgeryinfo
+  {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .third-section
+  {
+    width: 100%;
+  }
+   
+  .card-content
+  {
+    font-size: 20px;
+  }
+  
+}
+
+.FeaturedServices
+{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.Featured-Services p
+{
+display: flex;
+  justify-content: center;
+  font-style:  "Roboto",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif;
+   
+   font-size: larger;
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+
+.underline
+{
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  color: #175cdd;
+}
+
+#image5
+{
+  width: 100%;
+  height: 500px;
+}
+
+.image5
+{
+  display: flex;
+  justify-content: end;
+  
+}
+.Comprehensive-Healthcare 
+{
+  color: rgb(81, 80, 80);
+  font-size: larger;
+
+}
+
+.Comprehensive-Healthcare p
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.Comprehensive-Healthcare a
+{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #175cdd;
+  text-decoration:  underline;
+}
+
+.capsul-icon
+{
+  color: #104ec0;
+  background-color: rgba(0, 123, 255, 0.2);
+  border-radius: 100%;
+  width: 58px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.dermatology
+{
+  display: flex;
+  justify-content: baseline;
+  gap: 20px;
+  font-family: "Roboto",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif; 
+
+    background-color: #e7e9ec;
+    width: 300px;
+    height: 150px;
+}
+.service-info p
+{
+ /* font-size: large; */
+ margin-top: 20px;
+ margin-bottom: 10px;
+color: #686767;
+
+}
+
+.service-info a
+{
+  text-decoration: none;
+  
+}
+
+.medical-1
+{
+display: grid;
+justify-content: end;
+border-radius: 5px;
+}
+
+.medical
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.heartshap
+{
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+
+.heartshap i{
+  background-color: rgba(0, 123, 255, 0.2);
+  width: 45px;
+  height: 45px;
+}
