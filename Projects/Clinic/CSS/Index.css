@@ -1062,14 +1062,26 @@ display: flex;
 #image5
 {
   width: 100%;
-  height: 500px;
+  height: 400px;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .image5
 {
   display: flex;
   justify-content: end;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+   height: 400px;
   
+}
+.image5 :hover
+{
+  transform: scale(1.2);
 }
 .Comprehensive-Healthcare 
 {
@@ -1095,9 +1107,9 @@ display: flex;
 .capsul-icon
 {
   color: #104ec0;
-  background-color: rgba(0, 123, 255, 0.2);
+  background-color: rgba(0, 123, 255, 0.1);
   border-radius: 100%;
-  width: 58px;
+  width: 88px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -1120,9 +1132,10 @@ display: flex;
     "Liberation Sans",
     sans-serif; 
 
-    background-color: #e7e9ec;
-    width: 300px;
+    background-color: #f7f7f7;
+    width: 350px;
     height: 150px;
+    border-radius: 10px;
 }
 .service-info p
 {
@@ -1148,17 +1161,31 @@ border-radius: 5px;
 
 .medical
 {
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  text-align: center;
+  align-content: flex-start;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;         
+  margin: 0 auto;           
+  padding: 0 20px;
 }
 
 .heartshap
 {
   margin-top: 20px;
   margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 30px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 
 }
 
@@ -1166,4 +1193,438 @@ border-radius: 5px;
   background-color: rgba(0, 123, 255, 0.2);
   width: 45px;
   height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.heartshap span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+.service-overlay
+{
+  position: absolute;
+  top: 40px;
+  left:20px
+ 
+
+}
+
+@media(max-width:900px)
+{
+  .medical
+  {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .medical-1:first-child,
+   .medical-1:last-child
+  {
+    flex: unset;
+    width: 100%;
+    max-width: 400px;
+
+  }
+  #image5
+  {
+    height: 300px;
+  }
+
+  .dermatology
+  {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width:480)
+{
+  .medical-1:first-child,
+   .medical-1:last-child
+   {
+    max-width: 100%;
+   }
+   .heartshap span {
+    font-size: 12px;
+
+   };
+}
+
+#image-6
+{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+
+
+.image-6
+{
+  /* width: 30px;
+  height: 30px; */
+}
+
+.meternal-care p
+{
+ padding: 10px;
+ color: gray;
+}
+.meternal-care h1{
+  font-weight: -1.2rem;
+  font-size: large;
+}
+.clinic-service
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 40px;
+}
+.clinic-box
+{
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.clinik-box:hover
+{
+  transform: scale(1.05)
+}
+
+
+.heading h2
+{
+  display: flex;
+  justify-content: center;
+}
+.heading p
+{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: gray;
+}
+.desh 
+{
+  display: flex;
+  justify-content: center;
+}
+
+.heading-2 h1
+{
+ display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.heading-2 p
+{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: gray;
+}
+
+.search-doctor
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.search-doctor form
+{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.search-input
+{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.search-input i{
+  color: #104ec0;
+}
+
+.search-btn
+{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #0a3fa1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 13px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px;
+}
+.search-btn:hover
+{
+  background-color: #0a50d1;
+}
+.search-input input
+{
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.search-input select
+{
+ border: none;
+ outline: none;
+ font-size: 14px;
+ text-decoration: none;
+ appearance: none;
+ width: 100%;
+ /* padding: 10px; */
+ 
+}
+
+#image-7
+{
+  border-radius: 10%;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.doctor-information
+{
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  font-family: sans-serif;
+  margin: 20px auto;
+}
+.doctor-information:hover
+{
+  border: 1px solid #007bff;
+}
+
+.doctor-details 
+{
+  /* display: flex; */
+  gap: 20px;
+  align-items: center;
+}
+
+.doctor-details h4
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cardiology
+{
+  color: #007bff;
+   font-size: 14px;
+   font-weight: 300;
+   background-color: rgba(0, 123, 255, 0.1);
+   width: 2000px;
+   border-radius: 10px;
+   
+}
+
+.doctor-details div
+{
+  margin-top: 8px;
+  color: #666666;
+  font-size: 14px;
+}
+.doctor-details i{
+  margin-right: 6px;
+  color: #007bff;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+}
+
+.award
+{
+  position: absolute;
+  margin-top: 300px;
+  margin-bottom: 10px;
+}
+.award span
+{
+
+  color: gray;
+}
+
+.rating-section
+{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.stars i{
+  color: #ffc107;
+  margin-right: 2px;
+}
+
+.rating-score
+{
+  font-weight: bold;
+  color: #333333;
+}
+.review-count
+{
+  color: #888888;
+  font-size: 14px;
+}
+
+.action-btn a{
+
+  flex: 1;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px !important;
+  
+}
+.action-btn
+{
+  display: flex;
+  justify-content: baseline;
+  gap: 20px;
+}
+.btn-second
+{
+  border: 1px solid #dcdcdc;
+  color: #444444;
+  background-color: transparent;
+  width: 600px;
+}
+
+.btn-second:hover
+{
+  background-color: #fff;
+}
+
+.btn-primari
+{
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: 1px solid #1a73e8;
+  width: 600px;
+
+}
+
+.btn-primari:hover
+{
+ background-color: #1557b0;
+}
+.flex
+{
+  display: flex;
+  justify-content: baseline;
+  gap: 20px;
+}
+
+@media screen and(max-width:576px)
+{
+  .doctor-information
+  {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  .image-7 img
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .doctor-details h4
+  {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .doctor-details span
+  {
+    font-size: 14px;
+  }
+  .doctor-details div
+  {
+    font-size: 13px;
+  }
+
+  .rating-section
+  {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+  .action-btn
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .action-btn a
+  {
+    flex: 1;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  width: 80px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  
+  }
+}
+.Doctor-list
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
