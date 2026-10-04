@@ -1383,13 +1383,14 @@ border-radius: 5px;
 {
   background-color: #0a50d1;
 }
-.search-input input
+.search-inpu input
 {
   border: none;
   outline: none;
   font-size: 14px;
+  /* text-decoration: none; */
 }
-.search-input select
+.search-inpu select
 {
  border: none;
  outline: none;
@@ -1397,6 +1398,7 @@ border-radius: 5px;
  text-decoration: none;
  appearance: none;
  width: 100%;
+ /* text-decoration: none; */
  /* padding: 10px; */
  
 }
@@ -1627,4 +1629,240 @@ border-radius: 5px;
   align-items: center;
   align-content: center;
   text-align: center;
+}
+
+.view-all-doctorse-btn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* text-align: center; */
+  /* border: 1px solid #0a50d1; */
+  /* width: 200px;
+  height: 50px; */
+  border-radius: 20px;
+}
+.view-all-doctorse-btn a{
+  text-decoration: none;
+  color: #0a50d1;
+  font-size: larger;
+  font-weight: 600;
+   width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #0a50d1;
+ 
+
+}
+
+.view-all-doctorse-btn :hover
+{
+  background-color: #007bff;
+  color: white;
+}
+.view-all-doctorse-btn  i
+{
+  margin-left: 10px;
+}
+.section-sixth
+{
+  background-color: rgba(0, 123, 255, 0.05);
+}
+.Schedule-Consultation{
+
+  display: grid;
+  justify-content: start;
+}
+.Schedule-Consultation:hover
+{
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#Schedule-Consultation
+{
+
+  color: #175cdd;
+   margin-top: 40px;
+   font-size: large;
+  
+  
+}
+#Explore-Services
+{
+  color: gray;
+  text-decoration: none;
+  font-size: large;
+  margin-top: 20px;
+}
+.Exlence-in-medical h1
+{
+  font-size: 40px;
+  font-weight:100;
+  font-family: sans-serif;
+
+}
+.Exlence-in-medical
+{
+  margin-left: 50px;
+  /* border: 1px solid black; */
+  height: 449px;
+  width: 546px;
+  
+}
+
+.Exlence-in-medical p
+{
+ padding: 10px;
+ color: gray;
+  font-style:  "Roboto",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif;
+    font-size: large;
+    margin-top: 40px;
+    word-spacing: 3px;
+    font-size: large;
+    
+   
+}
+.image-8 img{
+  object-fit: cover;
+  width: 546px;
+  margin-right: 100px;
+  height: 500px;
+
+}
+.exlence-medical
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.feature-icon
+{
+font-size: 40px;
+color: #007bff;
+margin-bottom: 20px;
+
+}
+.feature-block h3
+{
+font-size: x-large;
+}
+
+.feature-block p
+{
+  color: gray;
+   font-style:  "Roboto",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif;
+    font-size: large;
+    /* margin-top: 40px;
+    word-spacing: 3px;
+    font-size: large; */
+    /* width: 400px; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.feature-block
+{
+  margin-top: 120px;
+  width: 320px;
+  margin-bottom: 100px;
+}
+
+.featureblock
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  /* margin-bottom: 100px; */
+}
+.contact-para p{
+  color: gray;
+}
+
+.contact-block
+{ 
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+
+}
+.contact-block .row
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-para h2{
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight:bold;
+}
+
+.contact-para p
+{
+  font-size: 16px;
+  color: #666;
+}
+.contact-para:last-child
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.emergency-call
+{
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white !important;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.emergency-call:hover
+{
+  background-color: blue;
+}
+.emergency-call i
+{
+  margin-right: 8px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: large;
+}
+.contact-link:hover
+{
+  background-color:underline;
 }
