@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#hw
+{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid black;
+    text-wrap-mode: nowrap;
+    transition: width 2s;
+    overflow: hidden;
+    background-color: green;
+    transition: width 2x,background-color 2x 1s;
+
+
+
+}
+
+#hw:hover
+{
+width: 600px;
+transition: width 2x;
+background-color: #d0b9b9;
+
+}
+
+#welcome{
+    background-color: #f14e4e;
+    color: #4d37b8;
+}
+
+#welcome::after
+{
+    content: "❤️";
+}
+
+.d::before
+{
+    content: "😊";
+}
+
+#box
+{
+    border: 5px solid rgb(25, 33, 12);
+    height: 20px;
+    width: 20px;
+}
+
+
+#box:hover
+{
+    width: 100px;
+    transition: all 2s linear;
+}
+
+#box2
+{
+    border: 5px solid rgb(25, 33, 12);
+    height: 20px;
+    width: 20px;
+}
+#box2:hover
+{
+    width: 100px;
+    transition: all 2s linear;
+}
+
+
+#box3
+{
+    border: 5px solid rgb(25, 33, 12);
+    height: 20px;
+    width: 20px;
+}
+#box3:hover
+{
+    width: 100px;
+    transition: all 2s linear;
+}

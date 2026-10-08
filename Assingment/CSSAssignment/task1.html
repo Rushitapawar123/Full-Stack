@@ -6,92 +6,99 @@
     <title>css</title>
 
     <link rel="stylesheet" href="Task1.css" />
-
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <div class="outer">
       <div class="container">
-       
-        <h1><u>Log</u>in</h1>
-     <section>
-        <div>
-          <i class="bi bi-envelope"></i>
-          <input
-            type="email"
-            name="emain"
-            id="email"
-            placeholder="Enter Your email"
-          />
-        </div>
+        <h1><span class="span">Log</span>in</h1>
+        <br>
+        <section>
+          <div id="email-icon">
+            <i class="bi bi-envelope"></i>
+            <input
+              type="email"
+              name="emain"
+              id="email"
+              placeholder="Enter Your email"
+            />
+          </div>
 
-        <div>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Confirm a Password"
-          />
-        </div>
-      </section>
+          <div id="password-icon">
+            <i class="bi bi-lock"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Confirm a Password"
+            />
+            <i class="bi bi-eye"></i>
+          </div>
+        </section>
         <div class="login-options">
-                <div class="remember">
-                    <input type="checkbox" id="remember">
-                    <span>Remember me</span>
-                    <a href="#">Forgot password?</a>
-                </div>
+          <div class="remember">
+            <input type="checkbox" id="remember" />
+            <span>Remember me</span>
+            <a href="#">Forgot password?</a>
+          </div>
           <button>Login Now</button>
         </div>
         <p>Don't have an account? <a href="">signup now</a></p>
       </div>
 
       <div class="container2">
-        <h1><u>reg</u>istartion</h1>
-
+        <h1><span class="span">Reg</span>istration</h1>
+<br>
+<br>
         <section>
-        <div >
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="  Enter your name"
-           
-          />
-        </div>
-        <div >
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="  Enter your email"
-          />
-        </div>
+          <div id="person">
+            <i class="bi bi-person"></i>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="  Enter your name"
+            />
+          </div>
+          <div id="email">
+            <i class="bi bi-envelope"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="  Enter your email"
+            />
+          </div>
 
-        <div >
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="  Create a password"
-          />
-        </div >
-        <div >
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="  Confirm a password"
-          />
-        </div>
- </section>
-        <div class="conditions" >
+          <div id="password">
+            <i class="bi bi-lock"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="  Create a password"
+            />
+          </div>
+          <div id="password2">
+            <i class="bi bi-lock"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="  Confirm a password"
+            />
+            <i class="bi bi-eye"></i>
+          </div>
+        </section>
+        <div class="conditions">
           <input type="checkbox" name="name" id="name" />
           <span>I accept all terms & conditions</span>
         </div>
-        
 
-        <div ><button>Register Now</button></div>
-
+        <div><button>Register Now</button></div>
 
         <p>Already have an account? <a href="">login now</a></p>
       </div>

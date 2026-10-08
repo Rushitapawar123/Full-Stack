@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.class
+{
+    display: grid;
+    justify-content: space-around;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto auto;
+
+    .A
+    {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+    }
+}
+/* .para2 */
+#para1
+{
+    display: flex;
+    justify-content:center;
+    
+}
+
+#img
+{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:1000px)
+{
+    .class
+    {
+        grid-template-columns: auto auto auto ;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width:764px)
+{
+    .class
+    {
+        grid-template-columns: auto auto ;
+        row-gap: 20px;
+    }
+}
+

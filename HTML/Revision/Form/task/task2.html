@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Header Test</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  .header {
+    background-color: #304ee6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  .manu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .manu a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .contact {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .contact2 {
+    margin-left: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .social-media {
+    margin-left: auto;
+    margin-right: 2px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .social-media a {
+    color: white;
+  }
+</style>
 </head>
 <body>
-    <p>task2 form</p>
+
+  <header class="header">
+    <div class="manu">
+      <div class="contact">
+        <i class="bi bi-envelope"></i>
+        <a href="mailto:contact@example.com">contact@example.com</a>
+      </div>
+
+      <div class="contact2">
+        <i class="bi bi-phone"></i>
+        <span>+1 5589 55488 55</span>
+      </div>
+
+      <div class="social-media">
+        <a href="#!"><i class="bi bi-twitter-x"></i></a>
+        <a href="#!"><i class="bi bi-facebook"></i></a>
+        <a href="#!"><i class="bi bi-instagram"></i></a>
+        <a href="#!"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
 </body>
 </html>

@@ -7,6 +7,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing:border-box ;
+ 
 
 }
 .container
@@ -20,8 +21,8 @@
     align-self: center;
     width: 290px;
     height: 350px;
-    background-color:  #f6f8fa;
-    border-radius: 15px;
+    background-color: white;
+    border-radius: 6px;
     position: fixed;
     bottom: 30px;
     right: 800px;
@@ -38,7 +39,7 @@
     width: 300px;
     height: 460px;
     background-color:  white;
-    border-radius: 10px;
+    border-radius: 6px;
     position: fixed;
     bottom: 30px;
     right: 400px;
@@ -90,25 +91,39 @@
 
 section
 {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+ 
   input {
   border: none;              
-  border-bottom: 1px solid rgb(211, 208, 208); 
+  border-bottom: 1px solid #ccc; 
   outline: none;  
-  width: 290px;  
+  width: 225px;  
  display: grid;
  padding: 10px;
-        
+ font-size: small;
+ font-weight: 200;
+ margin-left: 10px;
+ font-size: 14px;
+
   }
   gap: 30px;
 }
 h1{
   text-align: left;
+  margin-left: 10px;
+ 
+  .span
+  {
+    text-decoration: underline rgb(95, 95, 254);
+
+  }
 }
 
 .conditions{
   text-align: left;
   margin-top: 20px;
+  margin-left: 15px;
 }
 
 
@@ -120,6 +135,7 @@ h1{
     display: flex;
     align-items: center;
     gap: 7px;
+    margin-left: 15px;
 
    
 }
@@ -140,6 +156,40 @@ p a {
     color: #4169e1;
     text-decoration: none;
 }
-i{
-  font-size: small;
+ #email-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+#password-icon
+{
+  display: flex;
+  align-items: center;
+   margin-left: 15px;
+}
+
+#person
+{
+  display:flex;
+  align-items: center;
+   margin-left: 15px;
+}
+#email
+{
+  display:flex;
+  align-items: center; 
+   margin-left: 15px;
+}
+#password
+{
+   display:flex;
+  align-items: center;  
+   margin-left: 15px;
+}
+
+#password2
+{
+    display:flex;
+  align-items: center; 
+   margin-left: 15px;
 }

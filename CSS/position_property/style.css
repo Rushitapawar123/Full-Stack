@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header
+{
+    background-color: #37a153;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    z-index: 99;
+}
+
+#menu-item
+{
+    display: flex;
+    gap: 10px;
+align-items: center;
+
+button
+{
+    padding: 5px 10px;
+    background-color: #5eedd0;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+}
+
+}
+#askme
+{
+    padding: 5px 10px;
+    background-color: #e9405a;
+    border: 1px solid rgb(63, 184, 206);
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+
+#section
+{
+    display: flex;
+    gap: 20px;
+}
+
+#image
+{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+#project
+{
+ width: fit;
+ height: inherit;
+}
+#read-more,
+#learn-more
+{
+    padding: 5px 10px;
+    background-color: aqua;
+    border:  1px solid #e9405a;
+    border-radius:  5px;
+}
+
+#learn-more
+{
+    position: absolute;
+    bottom:  10px;
+    left:55%
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Jim+Nightshade&family=Story+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 100px;
+  font-weight: 900;
+   font-family: "Story Script", sans-serif;
+}
+
+.sub-heading {
+  font-size: large;
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Jim Nightshade", cursive;
+}
+
+#description span {
+  text-decoration: underline;
+  color: blue;
+}
+
+.pointer-head {
+  font-size: large;
+  font-weight: 700;
+   font-family: "Fascinate", system-ui;
+}
+
+ul {
+  margin-left: 20px;
+  list-style: "😊  ";
+  /* list-style-image: url(); */
+}
+
+ol {
+  margin: 20 px;
+  list-style: lower-greek;
+}
+
+footer {
+  background-color: #3a0e9e;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+ol:first-child {
+  background-color: red;
+}
+
+ol:last-child {
+  background-color: #c75f5f;
+}
