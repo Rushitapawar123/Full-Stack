@@ -243,7 +243,155 @@
 
 }
 
-/////////////
+
+
+.tm-slider-section {
+  padding: 30px 0 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.tm-card {
+  height: 100%;
+  background-color: #f5f7f6;
+  border-radius: 4px;
+  padding: 20px 15px 16px;
+}
+
+.tm-stars {
+  color: #ffc107;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+
+.tm-text {
+  font-size: 0.68rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+.tm-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tm-user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tm-user h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #111d2c;
+  margin: 0 0 2px;
+}
+
+.tm-user h5 i {
+  color: #304ee6;
+  font-size: 0.7rem;
+  margin-left: 3px;
+}
+
+.tm-user span {
+  font-size: 0.6rem;
+  color: #7a7f8c;
+}
+
+.tm-dots {
+  position: static;
+  margin: 22px 0 0;
+  justify-content: center;
+}
+
+.tm-dots button {
+  width: 6px;
+  height: 6px;
+  margin: 0 3px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #c5c8d0;
+  opacity: 1;
+}
+
+.tm-dots button.active {
+  width: 14px;
+  border-radius: 6px;
+  background-color: #304ee6;
+}
+
+.review-section {
+  padding: 20px 0 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.review-card {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 18px 22px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+}
+
+.review-stars {
+  color: #ffc107;
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+
+.review-text {
+  font-size: 0.7rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-user h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #111d2c;
+  margin: 0 0 3px;
+}
+
+.review-user span {
+  font-size: 0.62rem;
+  color: #7a7f8c;
+}
+
+.review-quote {
+  margin-left: auto;
+  margin-right: 8px;
+  font-size: 1.9rem;
+  color: #b9c8f2;
+}
+
+@media (max-width: 767px) {
+  .tm-card {
+    margin-bottom: 4px;
+  }
+}
+/* ///////////// */
 
 
 

@@ -243,7 +243,166 @@
 
 }
 
-/////////////
+
+.appt-section {
+  padding: 35px 0 70px;
+  font-family: "Roboto", sans-serif;
+}
+
+.appt-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px 30px 40px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
+}
+
+.appt-card h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: #0f1f3d;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.appt-intro {
+  max-width: 410px;
+  margin: 0 auto 55px;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+.appt-steps {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 55px;
+}
+
+.appt-step {
+  width: 160px;
+  text-align: center;
+}
+
+.appt-step-icon {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  background-color: #304ee6;
+  color: #fff;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appt-step h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #111d2c;
+  margin-bottom: 8px;
+}
+
+.appt-step p {
+  font-size: 0.62rem;
+  line-height: 1.7;
+  color: #6b7280;
+  margin: 0;
+}
+
+.appt-line {
+  width: 22px;
+  height: 2px;
+  margin: 20px 4px 0;
+  background-color: #304ee6;
+}
+
+.appt-form .form-control,
+.appt-form .form-select {
+  font-size: 0.7rem;
+  color: #222;
+  padding: 12px 12px;
+  border: 2px solid #dcdcdc;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.appt-form .form-control::placeholder {
+  color: #c2c2c2;
+}
+
+.appt-form .form-control:focus,
+.appt-form .form-select:focus {
+  border-color: #304ee6;
+  box-shadow: none;
+}
+
+.appt-form textarea.form-control {
+  resize: vertical;
+}
+
+.appt-btn {
+  background-color: #304ee6;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 13px 0;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+.appt-btn:hover {
+  background-color: #1f3bc4;
+  color: #fff;
+}
+
+.appt-alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  background-color: #e8eefb;
+  border-radius: 6px;
+  padding: 16px 14px;
+  font-size: 0.65rem;
+  color: #222;
+}
+
+.appt-alert i {
+  color: #e0525e;
+  font-size: 0.8rem;
+}
+
+.appt-911 {
+  color: #e0204d;
+  font-weight: 700;
+}
+
+@media (max-width: 575px) {
+  .appt-card {
+    padding: 30px 18px;
+  }
+  .appt-card h2 {
+    font-size: 1.5rem;
+  }
+  .appt-steps {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .appt-line {
+    display: none;
+  }
+}
+
+/* ///////////// */
 
 
 

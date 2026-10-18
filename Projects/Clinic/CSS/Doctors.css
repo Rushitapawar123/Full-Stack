@@ -405,11 +405,11 @@
   background-color: #1f3bc4;
   color: #fff;
 }
-////////////
+/* ////////////
 //////////
 /////////
 //////
-//
+// */
 .exlence-medical
 {
   display: flex;
@@ -660,10 +660,11 @@ font-size: 14px;
   transform: scale(2.0);
 }
 
-///////
+/* ///////
 ///
 /////
-//.exlence-medical
+//*/
+.exlence-medical 
 {
   display: flex;
   justify-content: center;

@@ -48,7 +48,7 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="../../Index.HTML" class="active">Home</a></li>
+            <li><a href="../../index.HTML" class="active">Home</a></li>
             <li><a href="../about.html">About</a></li>
             <li><a href="../Department.html">Departments</a></li>
             <li><a href="../services.html">Services</a></li>
@@ -123,6 +123,131 @@
     <div class="home-para">
       <p><a href="Index.HTML">home</a>/Appointment</p>
     </div>
+    
+
+        <section class="appt-section">
+      <div class="container-xl">
+        <div class="appt-card">
+          <h2>Schedule Your Appointment</h2>
+          <p class="appt-intro">
+            Book your medical appointment in just a few simple steps. Our
+            experienced healthcare professionals are ready to provide you with
+            the best care possible.
+          </p>
+
+          <div class="appt-steps">
+            <div class="appt-step">
+              <div class="appt-step-icon"><i class="bi bi-calendar2-check"></i></div>
+              <h5>Select Service</h5>
+              <p>Choose the medical service you need</p>
+            </div>
+
+            <div class="appt-line"></div>
+
+            <div class="appt-step">
+              <div class="appt-step-icon"><i class="bi bi-clock"></i></div>
+              <h5>Pick Date &amp; Time</h5>
+              <p>Select your preferred appointment slot</p>
+            </div>
+
+            <div class="appt-line"></div>
+
+            <div class="appt-step">
+              <div class="appt-step-icon"><i class="bi bi-person-check"></i></div>
+              <h5>Confirm Details</h5>
+              <p>Provide your information and confirm</p>
+            </div>
+          </div>
+
+          <form action="#" method="post" class="appt-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-control"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="tel"
+                  name="phone"
+                  class="form-control"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <select name="department" class="form-select" required>
+                  <option value="">Select Department</option>
+                  <option>Cardiology</option>
+                  <option>Neurology</option>
+                  <option>Orthopedics</option>
+                  <option>Pediatrics</option>
+                  <option>Dermatology</option>
+                  <option>Oncology</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="date"
+                  name="date"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <select name="doctor" class="form-select" required>
+                  <option value="">Select Doctor</option>
+                  <option>Dr. Marcus Johnson</option>
+                  <option>Dr. Sarah Williams</option>
+                  <option>Dr. Michael Chen</option>
+                  <option>Dr. Emily Rodriguez</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <textarea
+                  name="message"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Additional notes or symptoms (optional)"
+                ></textarea>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn appt-btn w-100">
+                  BOOK APPOINTMENT NOW
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="appt-alert">
+            <i class="bi bi-exclamation-triangle"></i>
+            <span>
+              For medical emergencies, please call
+              <span class="appt-911">911</span> or go to the nearest emergency
+              room.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
 
 <!-- ///////////////////////////////////// -->
  <br />

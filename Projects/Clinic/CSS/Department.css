@@ -293,11 +293,6 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.dept-tabs label:hover {
-  /* color: #304ee6; */
-}
-
-
 .dept-panels {
   margin-top: 25px;
 }
@@ -774,9 +769,9 @@ font-size: 14px;
 }
 
 
-///
+/* ///
 //
-//////
+////// */
 .exlence-medical
 {
   display: flex;

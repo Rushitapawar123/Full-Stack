@@ -242,8 +242,280 @@
   margin-left: 35px;
 
 }
+.hero-section {
+  padding: 40px 0 70px;
+  font-family: "Roboto", sans-serif;
+}
 
-/////////////
+.hero-badge {
+  display: inline-block;
+  background-color: #e9eefc;
+  color: #304ee6;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.hero-section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.25;
+  color: #1d2b45;
+  margin-bottom: 18px;
+}
+
+.hero-text {
+  font-size: 0.8rem;
+  line-height: 1.8;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+
+.hero-stats {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 35px;
+}
+
+.hero-stats h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #304ee6;
+  margin-bottom: 2px;
+}
+
+.hero-stats span {
+  font-size: 0.55rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.consult-btn {
+  background-color: #304ee6;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 0;
+}
+
+.consult-btn:hover {
+  background-color: #1f3bc4;
+  color: #fff;
+}
+
+.all-link {
+  font-size: 0.7rem;
+  color: #111d2c;
+  text-decoration: none;
+}
+
+.all-link:hover {
+  color: #304ee6;
+}
+
+
+.hero-img {
+  position: relative; 
+}
+
+.hero-img img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  display: block;
+}
+
+.float-card {
+  position: absolute;
+  left: 14px;
+  bottom: -30px;
+  width: 195px;
+  background-color: #fff;
+  padding: 16px 14px;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.float-icon {
+  width: 22px;
+  height: 22px;
+  background-color: #304ee6;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.float-card h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #111d2c;
+  margin-bottom: 4px;
+}
+
+.float-card p {
+  font-size: 0.55rem;
+  line-height: 1.5;
+  color: #6b7280;
+  margin: 0;
+}
+
+
+/*section 2 */
+.neuro-services {
+  padding: 70px 0 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title {
+  max-width: 480px;
+  margin: 0 auto 55px;
+}
+
+.section-title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #1d2b45;
+  margin-bottom: 12px;
+}
+
+.section-title p {
+  font-size: 0.7rem;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+.service-item {
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e3e6ee;
+  margin-bottom: 15px;
+}
+
+.service-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #e9eefc;
+  color: #304ee6;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.service-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #111d2c;
+  margin-bottom: 8px;
+}
+
+.service-item p {
+  font-size: 0.65rem;
+  line-height: 1.7;
+  color: #6b7280;
+  margin: 0;
+}
+
+
+
+.expert-section {
+  padding: 40px 0 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.expert-img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  display: block;
+}
+
+.expert-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #1d2b45;
+  margin-bottom: 14px;
+}
+
+.expert-sub {
+  font-size: 0.7rem;
+  line-height: 1.7;
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.65rem;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.check-list i {
+  color: #304ee6;
+  font-size: 0.9rem;
+}
+
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #e9eefc;
+  color: #304ee6;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-row small {
+  display: block;
+  font-size: 0.55rem;
+  color: #6b7280;
+}
+
+.contact-row strong {
+  font-size: 0.7rem;
+  color: #111d2c;
+}
+
+
+/* ///////////// */
 
 
 
