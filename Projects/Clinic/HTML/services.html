@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
-    <link rel="stylesheet" href="../CSS/servicess.css">
+   
 
  <link
-      rel="stylesheet"
+      rel="stylesheet"<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+/>
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
     />
+ <link rel="stylesheet" href="../CSS/servicess.css">
 
 </head>
 <body>
@@ -58,13 +62,13 @@
                 <li>
                   <a href="department-details.html">Department Details</a>
                 </li>
-                <li><a href="service-details.html">Service Details</a></li>
-                <li><a href="appointment.html">Appointment</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="faq.html">Frequently Asked Questions</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="terms.html">Terms</a></li>
-                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="../HTML/MorePages/serviceDetails.html">Service Details</a></li>
+                <li><a href="../HTML/MorePages/Appointment.html">Appointment</a></li>
+                <li><a href="../HTML/MorePages/testimonials.html">Testimonials</a></li>
+                <li><a href="../HTML/MorePages/frequentlyAskedQuestion.html">Frequently Asked Questions</a></li>
+                <li><a href="../HTML/MorePages/Gallery.html">Gallery</a></li>
+                <li><a href="../HTML/MorePages/Terms.html">Terms</a></li>
+                <li><a href="../HTML/MorePages/privacy">Privacy</a></li>
                 <li><a href="404.html">404</a></li>
               </ul>
             </li>
@@ -101,8 +105,201 @@
     </div>
 
 
+ <div class="headingofpage">
+      <div><h1>Services</h1></div>
+      <div>
+        <p>
+          Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
+          <br />
+          odio sint voluptas consequatur ut a odio voluptatem. Sit <br />
+          dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit
+          quaerat ipsum dolorem.
+        </p>
+      </div>
+    </div>
+
+    <div class="home-para">
+      <p><a href="Index.HTML">home</a>/about</p>
+    </div>
 
 
+
+        <!-- SERVICES CARDS -->
+    <section class="services">
+      <div class="container-xl">
+        <div class="row g-3">
+          <!-- Cardiology -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card h-100 border-0">
+              <img
+                src="../assets/department/image.png"
+                class="card-img-top"
+                alt="Cardiology"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Cardiology</h3>
+                <p class="card-text">
+                  Comprehensive heart care with advanced diagnostic tools and
+                  treatment options for cardiovascular conditions.
+                </p>
+                <ul class="features mb-3">
+                  <li><i class="bi bi-check2"></i> ECG Testing</li>
+                  <li><i class="bi bi-check2"></i> Heart Surgery</li>
+                </ul>
+                <a
+                  href="service-details.html"
+                  class="btn service-btn d-flex justify-content-between align-items-center mt-auto"
+                >
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Neurology -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card h-100 border-0">
+              <img
+                src="../assets/department/image copy 5.png"
+                class="card-img-top"
+                alt="Neurology"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Neurology</h3>
+                <p class="card-text">
+                  Expert neurological care for brain and nervous system
+                  disorders with state-of-the-art imaging technology.
+                </p>
+                <ul class="features mb-3">
+                  <li><i class="bi bi-check2"></i> MRI Scans</li>
+                  <li><i class="bi bi-check2"></i> Stroke Care</li>
+                </ul>
+                <a
+                  href="service-details.html"
+                  class="btn service-btn d-flex justify-content-between align-items-center mt-auto"
+                >
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Orthopedics -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card h-100 border-0">
+              <img
+                src="../assets/department/image copy 6.png"
+                class="card-img-top"
+                alt="Orthopedics"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Orthopedics</h3>
+                <p class="card-text">
+                  Specialized bone and joint treatment including sports
+                  medicine and reconstructive surgery procedures.
+                </p>
+                <ul class="features mb-3">
+                  <li><i class="bi bi-check2"></i> Joint Replacement</li>
+                  <li><i class="bi bi-check2"></i> Sports Medicine</li>
+                </ul>
+                <a
+                  href="service-details.html"
+                  class="btn service-btn d-flex justify-content-between align-items-center mt-auto"
+                >
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pediatrics -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card h-100 border-0">
+              <img
+                src="../assets/department/image copy 4.png"
+                class="card-img-top"
+                alt="Pediatrics"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Pediatrics</h3>
+                <p class="card-text">
+                  Dedicated healthcare for children from infancy through
+                  adolescence with specialized treatment protocols.
+                </p>
+                <ul class="features mb-3">
+                  <li><i class="bi bi-check2"></i> Well-Child Visits</li>
+                  <li><i class="bi bi-check2"></i> Immunizations</li>
+                </ul>
+                <a
+                  href="service-details.html"
+                  class="btn service-btn d-flex justify-content-between align-items-center mt-auto"
+                >
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency Care -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card h-100 border-0">
+              <img
+                src="../assets/department/image copy 9.png"
+                class="card-img-top"
+                alt="Emergency Care"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Emergency Care</h3>
+                <p class="card-text">
+                  24/7 emergency medical services with rapid response teams and
+                  critical care capabilities.
+                </p>
+                <ul class="features mb-3">
+                  <li><i class="bi bi-check2"></i> Trauma Center</li>
+                  <li><i class="bi bi-check2"></i> Critical Care</li>
+                </ul>
+                <a
+                  href="service-details.html"
+                  class="btn service-btn d-flex justify-content-between align-items-center mt-auto"
+                >
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Laboratory Testing -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card h-100 border-0">
+              <img
+                src="../assets/department/image copy 4.png"
+                class="card-img-top"
+                alt="Laboratory Testing"
+              />
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Laboratory Testing</h3>
+                <p class="card-text">
+                  Advanced diagnostic laboratory services with comprehensive
+                  testing panels and rapid result delivery.
+                </p>
+                <ul class="features mb-3">
+                  <li><i class="bi bi-check2"></i> Blood Tests</li>
+                  <li><i class="bi bi-check2"></i> Pathology</li>
+                </ul>
+                <a
+                  href="service-details.html"
+                  class="btn service-btn d-flex justify-content-between align-items-center mt-auto"
+                >
+                  Learn More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
     ////
 ///
 ////

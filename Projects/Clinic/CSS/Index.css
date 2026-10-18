@@ -1,9 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  /* width: 100%; */
   box-sizing: border-box;
-  /* color: transparent; */
 }
 
 .header {
@@ -190,15 +188,9 @@
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
-  .navmenu > ul {
-    display: none;
-  }
 
-  .mobile-nav-toggle {
-    display: block;
-  }
-}
+
+ 
 
 .container {
   display: flex;
@@ -1851,7 +1843,7 @@ font-size: x-large;
   color: rgb(101, 101, 101);
 }
 
-/* Right side box (phone + find location) */
+
 .contact-para-right {
   display: flex;
   flex-direction: column;

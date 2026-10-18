@@ -211,6 +211,122 @@
     border: 1px solid black;
 }
 
+
+.headingofpage{
+   
+    text-align: center;
+    align-items: center;
+    align-content: center;
+   
+}
+
+.headingofpage p
+{
+
+   color: gray;
+
+}
+.headingofpage h1{
+
+  padding: 20px;
+}
+
+.home-para{
+  background-color: rgba(0, 123, 255, 0.1);
+  height: 50px;
+
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  align-items:center ;
+
+
+}
+
+.home-para a{
+  text-decoration:  none;
+  font-size: larger;
+  margin-right: 10px;
+  color: #007bff;
+
+}
+
+.home-para p{
+  font-size: larger;
+  margin-left: 2px;
+}
+
+/* ===== SERVICES CARDS ===== */
+.services {
+  padding: 60px 0 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.service-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(48, 78, 230, 0.18);
+}
+
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card .card-body {
+  padding: 22px 20px 20px;
+}
+
+.service-card .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1d2b45;
+  margin-bottom: 12px;
+}
+
+.service-card .card-text {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+/* check wali tags */
+.features {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.features i {
+  color: #304ee6;
+}
+
+/* blue button */
+.service-btn {
+  background-color: #304ee6;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 10px 14px;
+}
+
+.service-btn:hover {
+  background-color: #1f3bc4;
+  color: #fff;
+}
 ////
 ///////////
 //////////
