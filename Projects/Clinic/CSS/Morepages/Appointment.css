@@ -188,15 +188,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
-  .navmenu > ul {
-    display: none;
-  }
 
-  .mobile-nav-toggle {
-    display: block;
-  }
-}
 
 .headingofpage{
    
