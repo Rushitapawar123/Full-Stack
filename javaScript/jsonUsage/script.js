@@ -38,6 +38,24 @@ const data=[{
     description:"very good phone is betroot color",
     "button1":"2500",
     "button":"buynow",
+},
+{
+    title:"somthing",
+    description:"very good phone is betroot color",
+    "button1":"2500",
+    "button":"buynow",
+},
+{
+    title:"somthing",
+    description:"very good phone is betroot color",
+    "button1":"2500",
+    "button":"buynow",
+},
+{
+    title:"somthing",
+    description:"very good phone is betroot color",
+    "button1":"2500",
+    "button":"buynow",
 }
 ];
 
