@@ -47,27 +47,47 @@
 </div> -->
 
     <header>
-      <nav class="navbar bg-primary text-light px-5">
-        <div class="navbar-brand text-light fw-bold text-center">
-          To Do Application
-           <h6>organize your day,one task at a time</h6>
-        </div>
-      </nav>
-    </header>
+    <div class="container bg-primary text-center">
+      <div class="">
+        <h1 class="text-light card-header fw-bold">My Todo List</h1>
+        <div class="text-light"><p>organize your day,one task at a time</p></div>
+      </div>
+    </div>
+</header>
 
     <main>
         <section class="container p-3 border rounded shadow mt-3 d-flex gap-4">
             <input type="text" name="name" id="taskInput" placeholder="Add your task" class="form-control">
             <button class="btn btn-primary text-nowrap" onclick="addTask()">Add your task </button>
         </section>
-
+<div class="container --bs-primary-bg-subtle d-flex gap-5">
+<div>
+    <div><h1>5</h1></div>
+    <div><p>Total task</p></div>
+</div>
+<div>
+    <div><h1>2</h1></div>
+    <div><p>completed</p></div>
+</div>
+<div>
+    <div><h1>5</h1></div>
+    <div><p>Pending</p></div>
+</div>
+</div>
+<div class="container">
+<div class="form-control">
+    <input type="checkbox" name="" id="">
+    
+</div>
+</div> 
+        
         <section class="container p3 border rounded shadow mt-3 d-flex gap-4">
             <ol class="w-100" id="taskList">
-                <li  class="p-3">
+                <!-- <li  class="p-3">
                     <input type="checkbox" name="" id="">
                     <span>task1</span>
                     <button class="btn btn-danger btn-sm ms-3">Delete</button>
-                </li>
+                </li> -->
 
             </ol>
 

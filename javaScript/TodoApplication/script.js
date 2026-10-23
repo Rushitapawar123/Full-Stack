@@ -5,8 +5,9 @@ function addTask(){
       Li.classList.add("p-3");
 
 
-const chek =document.createElement("chekbox");
-chek.textContent=newTask;
+// const chek =document.createElement("chekbox");
+// chek.textContent=chekbox;
+
       const SPAN =document.createElement("span");
       SPAN.textContent=newTask;
 
@@ -20,6 +21,7 @@ chek.textContent=newTask;
 
       Li.appendChild(SPAN);
       Li.appendChild(BUTTON);
+      // Li.appendChild(chek);
 
       document.getElementById("taskList").appendChild(Li);
 
