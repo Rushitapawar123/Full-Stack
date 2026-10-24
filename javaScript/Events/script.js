@@ -21,13 +21,19 @@ document.getElementById("keyPressMessage").addEventListener("click",()=>{
 });
 
 
-document.getElementById("press").addEventListener("",()=>{
+document.getElementById("press").addEventListener("mousedown",()=>{
     document.getElementById("press").innerText="Pointer is over the paragraph!";
   
 
-})
+});
 
 document.getElementById("box2").addEventListener("mouseout",()=>{
+    document.getElementById("box2").innerText="Box out of the box";
+  
+
+});
+
+document.getElementById("box2").addEventListener("mouseenter",()=>{
     document.getElementById("box2").innerText="Box clicked!";
   
 
@@ -35,18 +41,30 @@ document.getElementById("box2").addEventListener("mouseout",()=>{
 
 
 document.getElementById("namesubmit").addEventListener("click",()=>{
- console.log(document.getElementById("namesubmit").ariaValueMax.trim());
+ console.log(document.getElementById("namesubmit").Value.trim());
 
 });
 
-document.getElementById("fullname").addEventListener("keydown",(e)=>{
-    // e.key==="Enter"?()=>{
+document.getElementById("namesubmit").addEventListener("submit",(e)=>{
+    e.key==="Enter" &&
+    console.log(document.getElementById("namesubmit").Value.trim());
 
-    // }
 
-    if(e.key==="Enter"){
-        ()=>{
-            console.log(document.getElementById("fullname").ariaValueMax.trim());
-        }
     }
+
+    // if(e.key==="Enter"){
+    //     ()=>{
+    //         console.log(document.getElementById("fullname").ariaValueMax.trim());
+    //     }
+    // }
+);
+
+document.getElementById("loginform").addEventListener("submit",(e)=>{
+    e.preventDefault();
+    console.log("login Done");
+});
+
+document.getElementById("fullname").addEventListener("keydown",(e)=>{
+    e.key==="Enter"&&
+    console.log(document.getElementById("fullname").Value.trim());
 });
