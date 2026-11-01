@@ -70,3 +70,8 @@ const somedata={
 
     console.log("student with name",stname,"scored",marks);
     console.log(`student with name ${stname} scores ${marks}`);
+
+    
+    
+    
+    
