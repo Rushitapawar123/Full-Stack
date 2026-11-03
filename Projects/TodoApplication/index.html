@@ -8,11 +8,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header><i class="bi bi-file-lock"></i>
       <div class="container bg-primary text-center">
         <div class="">
           <h1 class="text-light card-header fw-bold">My Todo List</h1>
@@ -50,10 +53,16 @@
           <p class="mb-0">completed</p>
         </div>
       </section>
-      <div class="btn-group mb-3 gap-5 d-flex ">
-        <button class="btn btn-outline-primary " onclick="setFilter('all')">All</button>
-          <button class="btn btn-outline-primary" onclick="setFilter('pending')">pending</button>
-            <button class="btn btn-outline-primary" onclick="setFilter('done')">Done</button>
+      <div class="btn-group mb-3 gap-5 d-flex">
+        <button class="btn btn-outline-primary" onclick="setFilter('all')">
+          All
+        </button>
+        <button class="btn btn-outline-primary" onclick="setFilter('pending')">
+          pending
+        </button>
+        <button class="btn btn-outline-primary" onclick="setFilter('done')">
+          Done
+        </button>
       </div>
       <!-- <div class="container">
         <div class="form-control">
